@@ -125,7 +125,7 @@ def get_dealer_reviews_from_cf(url, **kwargs):
             
             #sentiment = analyze_review_sentiments(review_obj.review)
             #print(sentiment)
-            #review_obj.sentiment = sentiment
+            #   review_obj.sentiment = sentiment
             results.append(review_obj)
 
     return results
